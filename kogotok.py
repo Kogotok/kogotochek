@@ -69,7 +69,7 @@ async def zam(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Команда /mp
 async def mp(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = "Ближайшие мероприятия:\n\n• 25 октября в 17:00- Хэллоуин(10+ лет) \n• 28 октября- мероприятие "Япония""
+    text = "Ближайшие мероприятия:\n\n• 25 октября в 17:00- Хэллоуин(10+ лет) \n• 28 октября- мероприятие 'Япония'"
     await update.message.reply_text(text)
 
 # Обработка текста (для форм)
@@ -158,5 +158,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
