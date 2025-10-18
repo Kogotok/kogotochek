@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # Токен бота (вставь свой!)
 import os
-TOKEN = os.getenv(8164069115:AAHPX5iqw5rGbH_WNisMpCb5XsXZa3Wh7qU)
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Username администратора (куда отправлять данные)
 ADMIN_ID = 5713965537  # заменить на @username администратора
@@ -158,3 +158,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
